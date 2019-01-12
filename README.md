@@ -2,6 +2,8 @@
 
 Misión base para las misiones que se competirán en la Liga FAM
 
+[LogoFAM](https://steamuserimages-a.akamaihd.net/ugc/936065989682645148/36832AD5DD1B874C6A6E03D882325B110D61C90F/)
+
 ## ¿Qué es FAM?
 
 La Federeación Americana de Milsim nace el 26 de marzo del 2018, con la
@@ -15,7 +17,7 @@ escalas jamás vistas.
 
 [sitio web FAM](http://www.federacionamericanademilsim.com)
 
-### ¿Qué es este repositorio?
+## ¿Qué es este repositorio?
 
 En este repositorio los editores oficiales FAM trabajan **colaborativamente** en
 la misión que funciona como base para todas las misiones que se competirán en la 
@@ -25,3 +27,11 @@ Nuestra mayor preocupación es generar un sistema robusto y flexible que se pued
 utilizar en una amplia cantidad de diferentes misiones y que sirvan de ayuda para
 los jueces FAM que evaluarán el desempeño de las comunidades participantes de forma
 justa y precisa.
+
+## ¿Quiénes pueden colaborar?
+
+Por defecto sólo los miembros del grupo de editores FAM están autorizados a realizar
+cambios directos en el framework de nuestras misiones, sin embargo estamos abiertos a
+mejoras y sugerencias del público en general, particularmente colegas del milsim con
+gusto por la programación.
+
