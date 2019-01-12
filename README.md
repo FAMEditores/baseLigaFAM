@@ -2,7 +2,7 @@
 
 Misión base para las misiones que se competirán en la Liga FAM
 
-## ¿Qué es FAM"?"
+## ¿Qué es FAM?
 
 La Federeación Americana de Milsim nace el 26 de marzo del 2018, con la
 unión de tres comunidades hermanas de simulación militar que compartían
@@ -15,7 +15,7 @@ escalas jamás vistas.
 
 [sitio web FAM](http://www.federacionamericanademilsim.com)
 
-### ¿Qué es este repositorio"?"
+### ¿Qué es este repositorio?
 
 En este repositorio los editores oficiales FAM trabajan **colaborativamente** en
 la misión que funciona como base para todas las misiones que se competirán en la 
