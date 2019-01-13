@@ -1,0 +1,136 @@
+/*
+************************************************
+@Editor:    	Redburn
+@Para:      	FAM
+@Date:      	29/10/2018
+@Version:   	NONE
+@Descripcion:	Carga proceso de inicio de misión
+************************************************
+*/
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+class Header 				// Tipo de mision, Cantidad minima y maxima de jugadores admitidos.
+{
+	gameType 	=  coop; 	// Tipo de juego
+	minPlayers 	=  1; 		// Minimo de Jugadores soportados
+	maxPlayers	=  10; 		// Maximo de jugadores soportados
+};
+
+
+Author 			 = "FAM"; 														
+OnLoadName       = "De la escoba a la Aspiradora."; 							
+briefingName 	 = "De la escoba a la Aspiradora.";								
+OnLoadMission    = "Urgente, llegaron informes de un Artefacto Peligroso!.";
+overviewText 	 = "Competencia Pre-Liga FAM Cap.3";
+overviewPicture	 = "mision_fam3.jpg";
+loadScreen		 = "mision_fam3.jpg";
+
+//respawn = 0;
+//disabledAI = 0;
+
+#include "GUI\pantallaFinal.h"
+
+//Notificacion
+class cfgNotifications
+{
+	#include "funciones\NOTIFICATIONS\cfgNotifications.hpp"
+};
+//FIN Notificacion.
+
+//funciones
+class CfgFunctions 
+{
+	#include "funciones\cfgFunctions.hpp"
+};
+//FIN funciones
+
+
+//PRESENTACION
+class RscTitles 
+{
+    class RscLogoA
+    {
+	    idd = -1;
+	    duration = 3;
+	    fadeIn = 0;
+	    fadeOut = 0;
+	    controls[] = {RsclogoPicture};
+        
+		class RsclogoPicture
+        {
+	        idc = -1;
+	        type = 0;
+	        style = 0x30;
+	        x = SafeZoneX + SafeZoneW/2 - 0.6274510/2;
+	        y = SafeZoneY + SafeZoneH/2 - 0.8366013/2;
+	        w = 0.6274510;
+            h = 0.8366013;
+	        font = "PuristaMedium";
+	        sizeEx = 0;
+	        colorBackground[] = {0,0,0,0};
+	        colorText[] = {1,1,1,1};
+	        text = "img\creadorMision.paa";
+	    };
+    };
+
+    class RscLogoB
+    {
+	    idd = -1;
+	    duration = 3;
+	    fadeIn = 0;
+	    fadeOut = 0;
+	    controls[] = {RsclogoPicture};
+        
+		class RsclogoPicture
+        {
+	        idc = -1;
+	        type = 0;
+	        style = 0x30;
+	        x = SafeZoneX + SafeZoneW/2 - 0.6274510/2;
+	        y = SafeZoneY + SafeZoneH/2 - 0.8366013/2;
+	        w = 0.6274510; 
+            h = 0.8366013;
+	        font = "PuristaMedium";
+	        sizeEx = 0;
+	        colorBackground[] = {0,0,0,0};
+	        colorText[] = {1,1,1,1};
+	        text = "img\Milsim.paa";
+	    };
+    };
+};
+//FIN PRESENTACION
+
+
+//Finalizando la Misión
+class CfgDebriefing 
+{  
+	class End1 
+	{
+		title = "Misión Finalizada";
+		subtitle = "Se ha finalizado la competencia";
+		description = "Ahora es solo esperar el Dictamen de los Jueces!";
+		picture = "img\logoFam64.paa";
+		//pictureColor[] = {1.0,1.0,1.0,1};
+	};
+
+	class Loser 
+	{
+        title = "Misión Fallida";
+		subtitle = "Mision Finalizada con todos Eliminados...";
+        description = "Es necesario mas practica en equipo, es hora de esperar veredicto!";
+		picture = "img\logoFam64.paa";
+		//pictureColor[] = {1.0,1.0,1.0,1};
+	};
+
+	class endDeath
+	{
+		title = "Misión Fallida";
+		subtitle = "Mision Finalizada con todos Eliminados...";
+        description = "Es necesario mas practica en equipo, es hora de esperar veredicto!";
+		picture = "img\logoFam64.paa";
+		//pictureColor[] = {1.0,1.0,1.0,1};
+	};
+};
+//FIN.
