@@ -2,7 +2,7 @@
 
 Misión base para las misiones que se competirán en la Liga FAM
 
-![LogoFAM](https://github.com/FAMEditores/baseLigaFAM/blob/master/baseFAM.VR/GUI/milsim.jpg?raw=true)
+![LogoFAM](https://github.com/FAMEditores/baseLigaFAM/blob/updater/img/fam.jpg?raw=true)
 
 ## ¿Qué es FAM?
 
