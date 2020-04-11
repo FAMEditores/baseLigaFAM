@@ -2,7 +2,7 @@
 
 Misión base para las misiones que se competirán en la Liga FAM
 
-![LogoFAM](https://github.com/FAMEditores/baseLigaFAM/blob/master/GUI/milsim.jpg?raw=true) OUT!
+![LogoFAM](https://github.com/FAMEditores/baseLigaFAM/blob/master/GUI/milsim.jpg?raw=true) 
 
 ## ¿Qué es FAM?
 
@@ -15,7 +15,7 @@ surge este hermoso proyecto que pretende no solamente enaltecer la práctica
 de esta disciplina, sino de llevar nuestra pasión por el MilSim a otras 
 escalas jamás vistas.
 
-[sitio web FAM](http://www.federacionamericanademilsim.com)
+[sitio web FAM](http://www.federacionamericanademilsim.com) is Out for the moment.
 
 ## ¿Qué es este repositorio?
 
